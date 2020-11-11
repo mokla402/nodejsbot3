@@ -42,7 +42,7 @@ client.on('message', (message) => {
     return message.channel.send('웅 너도 잘 자');
   }
   if(message.content == '좋아해') {
-    return message.channel.send('나도 좋아해');
+    return message.channel.send('나도 좋아해❤️');
   }
   if(message.content == '나 힘들어') {
     return message.channel.send('힘내❤️❤️ ');
