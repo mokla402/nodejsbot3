@@ -33,7 +33,7 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '비니야') {
-    return message.reply('웅');
+    return message.reply('왜 불러');
   }
 
   if(message.content == 'embed') {
