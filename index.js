@@ -44,6 +44,9 @@ client.on('message', (message) => {
   if(message.content == '좋아해') {
     return message.channel.send('나도 좋아해');
   }
+  if(message.content == '나 힘들어') {
+    return message.channel.send('힘내❤️❤️ ');
+  }
 
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
