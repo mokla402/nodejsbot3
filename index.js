@@ -36,7 +36,7 @@ client.on('message', (message) => {
     return message.channel.send('왜 불러');
   }
   if(message.content == '비니야 뭐해') {
-    return message.chaneel.send('너 생각❤️');
+    return message.channel.send('너 생각❤️');
   }
   if(message.content == '비니야 잘 자') {
     return message.channel.send('웅 너도 잘 자');
