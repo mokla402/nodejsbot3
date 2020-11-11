@@ -41,8 +41,8 @@ client.on('message', (message) => {
   if(message.content == '비니야 잘 자') {
     return message.channel.send('웅 너도 잘 자');
   }
-  if(message.content == '김승민') {
-    return message.channel.send('돼지새끼');
+  if(message.content == '좋아해') {
+    return message.channel.send('나도 좋아해');
   }
 
   if(message.content == 'embed') {
