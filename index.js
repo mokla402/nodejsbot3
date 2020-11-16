@@ -39,7 +39,7 @@ client.on('message', (message) => {
     return message.channel.send('너 생각❤️');
   }
   if(message.content == '비니야 나 잘게') {
-    return message.channel.send('웅 잘자');
+    return message.channel.send('웅 잘 자');
   }
   if(message.content == '좋아해') {
     return message.channel.send('나도 좋아해❤️');
